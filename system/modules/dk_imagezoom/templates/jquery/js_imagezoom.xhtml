@@ -1,0 +1,21 @@
+<script type="text/javascript">
+/* <![CDATA[ */
+(function($) {
+	$(document).ready(function() {
+		$('#imagezoom_<?php echo $this->id; ?>')
+			.wrap('<span style="display:inline-block"></span>').parent()
+			.zoom({
+<?php
+	echo 'url: "' . $this->singleSRC . '"';
+	if ($this->on) {		
+		echo ', ' . $this->on;
+	}
+	if ($this->duration) {		
+		echo ', ' . $this->duration;
+	}
+?>
+		});
+	});
+})(jQuery);
+/* ]]> */
+</script>

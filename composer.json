@@ -1,0 +1,36 @@
+{
+	"name": "dklemmt/contao_dk_imagezoom",
+	"description": "Implementation of jQuery Zoom as extension for Contao Open Source CMS",
+	"keywords": ["contao", "image"],
+	"type": "contao-module",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dirk Klemmt",
+			"email": "dirch@quantentunnel.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "dirch@quantentunnel.de",
+		"issues": "https://github.com/dklemmt/contao_dk_imagezoom/issues",
+		"wiki": "https://github.com/dklemmt/contao_dk_imagezoom/wiki",
+		"irc": "irc://irc.freenode.org/contao.dev",
+		"source": "https://github.com/dklemmt/contao_dk_imagezoom"
+	},
+	"require": {
+		"php": ">=5.3",
+		"contao/core": "3.*",
+		"contao-community-alliance/composer-installer": "*"
+	},
+	"replace": {
+		"contao-legacy/dk_imagezoom": "*"
+	},
+	"extra": {
+		"contao": {
+			"sources": {
+				"system/modules/dk_imagezoom": "system/modules/dk_imagezoom"
+			}
+		}
+	}
+}
