@@ -1,5 +1,5 @@
-Zoom - ein intelligentes Grid Layout für Contao
-==================================================
+Zoom - Bilder vergrößert darstellen
+===================================
 
 ***Zoom*** ist ein JavaScript-Plugin von Jack Moore, das Bilder vergrößert sobald man sich mit der Maus über diesem befindet und eine konfigurierbare Aktion durchführt. 
 
